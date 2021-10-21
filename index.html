@@ -9,6 +9,9 @@
   <title>Pizza Shemesh</title>
 
   <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 
   <!-- Style (Vendor) -->
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
@@ -23,10 +26,607 @@
 
 <body>
 
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <!-- Action -->
+      <div class="header-action d-mobile">
+        <a href="#">
+          <img src="img/icons/hamburger.svg" alt="shemesh-pizza-icon">
+        </a>
+      </div>
+      <!-- Logo -->
+      <div class="header-logo">
+        <a href="#">
+          <img src="img/global/logo.svg" alt="shemesh-pizza-logo">
+        </a>
+      </div>
+      <!-- Menu -->
+      <div class="header-menu">
+        <!-- Links -->
+        <div class="header-links">
+          <ul>
+            <!-- Item -->
+            <li>
+              <a href="#banner" class="f-d-20 f-m-35 bold active">הזמין</a>
+            </li>
+            <!-- Item -->
+            <li>
+              <a href="#story" class="f-d-20 f-m-35 bold">סיפור שלנו</a>
+            </li>
+            <!-- Item -->
+            <li>
+              <a href="#branches" class="f-d-20 f-m-35 bold">סניפים</a>
+            </li>
+            <!-- Item -->
+            <li>
+              <a href="#contact" class="f-d-20 f-m-35 bold">צור קשר</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Btn -->
+        <div class="header-btn d-mobile">
+          <a href="#" class="btn btn-primary">הזמן עכשיו</a>
+        </div>
+        <!-- Img -->
+        <div class="header-img d-mobile">
+          <img src="img/global/header-menu-img.png" alt="shemesh-pizza-img">
+        </div>
+        <!-- Bg -->
+        <div class="header-menu-bg d-mobile">
+          <img src="img/global/header-menu-bg.jpg" alt="shemesh-pizza-img">
+        </div>
+      </div>
+      <!-- Contact -->
+      <div class="header-contact d-mobile">
+        <a href="#" class="btn btn-primary btn-small">הזמינו עכשיו</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <div class="banner section" id="banner">
+    <div class="container">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- Slide -->
+          <div class="swiper-slide">
+            <!-- Img -->
+            <div class="img">
+              <picture>
+                <source media="(min-width:1024px)" srcset="img/home/banner.jpg">
+                <img src="img/home/banner-mobile.jpg" alt="shemesh-pizza-img">
+              </picture>
+            </div>
+            <!-- Text -->
+            <div class="text">
+              <h1 class="f-d-70 f-m-70 text-red">פיצה שמש</h1>
+              <p class="f-d-35 f-m-35">מורידים לכם את השמש עם מגוון
+                פיצות טעימות במיוחד</p>
+              <a href="#" class="btn btn-primary">הזמן עכשיו</a>
+            </div>
+          </div>
+        </div>
+        <!-- Arrows -->
+        <div class="swiper-arrows">
+          <div class="swiper-button-prev"><img src="img/icons/arrow-left-circle.svg" alt="shemesh-pizza-icon"></div>
+          <div class="swiper-button-next"><img src="img/icons/arrow-left-circle.svg" alt="shemesh-pizza-icon"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Story -->
+  <div class="story section" id="story">
+    <div class="container">
+      <!-- Text -->
+      <div class="text">
+        <p class="f-d-18 f-m-30">סיפור שלנו</p>
+        <h2 class="f-d-50 f-m-50 text-red">השילוב המושלם בין טעם
+          למוצר איכותי</h2>
+        <p class="f-d-18 f-m-30">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי
+          ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם.</p>
+      </div>
+      <!-- Img -->
+      <div class="img">
+        <div class="img-1"><img src="img/home/story-img-1.jpg" alt="shemesh-pizza-img"></div>
+        <div class="img-2"><img src="img/home/story-img-2.jpg" alt="shemesh-pizza-img"></div>
+        <div class="img-3"><img src="img/home/story-img-3.jpg" alt="shemesh-pizza-img"></div>
+        <div class="img-4"><img src="img/home/story-img-4.jpg" alt="shemesh-pizza-img"></div>
+        <div class="img-5"><img src="img/home/story-img-5.jpg" alt="shemesh-pizza-img"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Branches -->
+  <div class="branches section" id="branches">
+    <div class="container">
+      <!-- Img -->
+      <div class="img">
+        <picture>
+          <source media="(min-width:1024px)" srcset="img/home/branches-bg.jpg">
+          <img src="img/home/branches-bg-mobile.jpg" alt="shemesh-pizza-img">
+        </picture>
+      </div>
+      <!-- Text -->
+      <div class="text">
+        <p class="lined f-d-18 f-m-30">
+          <span class="line"></span>
+          סניפים שלנו
+        </p>
+        <h2 class="f-d-50 f-m-50 text-red">מוזמנים לבקר אותנו בסניף
+          הקרוב לביתך</h2>
+        <!-- Select Boxes -->
+        <form class="f-d-18 f-m-30">
+          <select>
+            <option value="1">בחרו עיר</option>
+            <option value="2">בחרו עיר</option>
+          </select>
+          <select>
+            <option value="1">כשרות</option>
+            <option value="2">כשרות</option>
+          </select>
+        </form>
+        <!-- Accordion -->
+        <div class="accordion">
+          <div class="collapsible">
+            <div class="collapse-toggler f-d-18 f-m-30 bold">
+              <img src="img/icons/store.svg" alt="shemesh-pizza-icon">
+              <p>סניף אור יהודה, רחוב ויצמן</p>
+              <div class="simbol">
+                <p class="bold d-mobile">למידע נוסף</p>
+                <div class="plus"><img src="img/icons/plus.svg" alt="shemesh-pizza-icon"></div>
+                <div class="minus"><img src="img/icons/minus.svg" alt="shemesh-pizza-icon"></div>
+              </div>
+            </div>
+            <div class="collapse">
+              <div>
+                <!-- Activity -->
+                <div class="branch-activity">
+                  <p class="f-d-18 f-m-30 bold">שעות פעילות</p>
+                  <ul class="f-d-18 f-m-30">
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                  </ul>
+                </div>
+                <!-- Contact -->
+                <div class="branch-contact">
+                  <p class="f-d-18 f-m-30 bold">יצירת קשר</p>
+                  <p class="f-d-18 f-m-30"><img src="img/icons/location.svg" alt="shemesh-pizza-icon"> נווט לסניף</p>
+                  <p class="f-d-18 f-m-30"><img src="img/icons/phone.svg" alt="shemesh-pizza-icon"> 0546-111122</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collapsible">
+            <div class="collapse-toggler f-d-18 f-m-30 bold">
+              <img src="img/icons/store.svg" alt="shemesh-pizza-icon">
+              <p>סניף אור יהודה, רחוב ויצמן</p>
+              <div class="simbol">
+                <p class="bold d-mobile">למידע נוסף</p>
+                <div class="plus"><img src="img/icons/plus.svg" alt="shemesh-pizza-icon"></div>
+                <div class="minus"><img src="img/icons/minus.svg" alt="shemesh-pizza-icon"></div>
+              </div>
+            </div>
+            <div class="collapse">
+              <div>
+                <!-- Activity -->
+                <div class="branch-activity">
+                  <p class="f-d-18 f-m-30 bold">שעות פעילות</p>
+                  <ul class="f-d-18 f-m-30">
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                  </ul>
+                </div>
+                <!-- Contact -->
+                <div class="branch-contact">
+                  <p class="f-d-18 f-m-30 bold">יצירת קשר</p>
+                  <p class="f-d-18 f-m-30"><img src="img/icons/location.svg" alt="shemesh-pizza-icon"> נווט לסניף</p>
+                  <p class="f-d-18 f-m-30"><img src="img/icons/phone.svg" alt="shemesh-pizza-icon"> 0546-111122</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collapsible">
+            <div class="collapse-toggler f-d-18 f-m-30 bold">
+              <img src="img/icons/store.svg" alt="shemesh-pizza-icon">
+              <p>סניף אור יהודה, רחוב ויצמן</p>
+              <div class="simbol">
+                <p class="bold d-mobile">למידע נוסף</p>
+                <div class="plus"><img src="img/icons/plus.svg" alt="shemesh-pizza-icon"></div>
+                <div class="minus"><img src="img/icons/minus.svg" alt="shemesh-pizza-icon"></div>
+              </div>
+            </div>
+            <div class="collapse">
+              <div>
+                <!-- Activity -->
+                <div class="branch-activity">
+                  <p class="f-d-18 f-m-30 bold">שעות פעילות</p>
+                  <ul class="f-d-18 f-m-30">
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                  </ul>
+                </div>
+                <!-- Contact -->
+                <div class="branch-contact">
+                  <p class="f-d-18 f-m-30 bold">יצירת קשר</p>
+                  <p class="f-d-18 f-m-30"><img src="img/icons/location.svg" alt="shemesh-pizza-icon"> נווט לסניף</p>
+                  <p class="f-d-18 f-m-30"><img src="img/icons/phone.svg" alt="shemesh-pizza-icon"> 0546-111122</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collapsible">
+            <div class="collapse-toggler f-d-18 f-m-30 bold">
+              <img src="img/icons/store.svg" alt="shemesh-pizza-icon">
+              <p>סניף אור יהודה, רחוב ויצמן</p>
+              <div class="simbol">
+                <p class="bold d-mobile">למידע נוסף</p>
+                <div class="plus"><img src="img/icons/plus.svg" alt="shemesh-pizza-icon"></div>
+                <div class="minus"><img src="img/icons/minus.svg" alt="shemesh-pizza-icon"></div>
+              </div>
+            </div>
+            <div class="collapse">
+              <div>
+                <!-- Activity -->
+                <div class="branch-activity">
+                  <p class="f-d-18 f-m-30 bold">שעות פעילות</p>
+                  <ul class="f-d-18 f-m-30">
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                    <!-- Item -->
+                    <li>
+                      <span>א'</span>
+                      11:30 - 22:30
+                    </li>
+                  </ul>
+                </div>
+                <!-- Contact -->
+                <div class="branch-contact">
+                  <p class="f-d-18 f-m-30 bold">יצירת קשר</p>
+                  <p class="f-d-18 f-m-30"><img src="img/icons/location.svg" alt="shemesh-pizza-icon"> נווט לסניף</p>
+                  <p class="f-d-18 f-m-30"><img src="img/icons/phone.svg" alt="shemesh-pizza-icon"> 0546-111122</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="contact section" id="contact">
+    <div class="container">
+      <!-- Img -->
+      <div class="img">
+        <picture>
+          <source media="(min-width:1024px)" srcset="img/home/contact-bg.jpg">
+          <img src="img/home/contact-bg-mobile.jpg" alt="shemesh-pizza-img">
+        </picture>
+      </div>
+      <!-- Text -->
+      <div class="text">
+        <h2 class="f-d-60 f-m-60 f-montserrat">Get In Touch</h2>
+        <form>
+          <input type="text" class="f-d-18 f-m-30" placeholder="שם מלא">
+          <input type="text" class="f-d-18 f-m-30" placeholder="טלפון">
+          <input type="text" class="f-d-18 f-m-30" placeholder="מייל">
+          <textarea rows="5" class="f-d-18 f-m-30" placeholder="...מה תרצו לכתוב לנו"></textarea>
+          <button type="submit" class="btn btn-primary">שלח</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container-fluid">
+    <footer class="footer">
+      <div class="container">
+        <div class="col-md-6 col-sm-12 col-xs-12 branches-footer-list">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+              <h5>סניפים</h5>
+            </div>
+          </div>
+          <div class="row mt15">
+            <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+              <h6>מרכז</h6>
+              <ul class="list-unstyled">
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/אור-יהודה">אור יהודה</a>
+                </li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/אזור">אזור</a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/אלעד-העדה-חרדית">אלעד
+                    -העדה חרדית</a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/באר-יעקב">באר יעקב</a>
+                </li>
+                <li class="pull-right col-md-6 pr0"><a
+                    href="https://pizza-shemesh.co.il/סניפים/בני-ברק-ירושלים-הרב-לנדאו">בני ברק ירושלים -הרב לנדאו</a>
+                </li>
+                <li class="pull-right col-md-6 pr0"><a
+                    href="https://pizza-shemesh.co.il/סניפים/בני-ברק-כהנמן-הרב-לנדאו">בני ברק כהנמן- הרב לנדאו </a></li>
+                <li class="pull-right col-md-6 pr0"><span>בני ברק רבי עקיבא- הרב לנדאו </span></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/בת-ים-אנה-פרנק">בת ים -
+                    אנה פרנק</a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/בת-ים-הרצל">בת ים - הרצל
+                  </a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/גבעת-שמואל">גבעת
+                    שמואל</a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/גבעתיים">גבעתיים</a>
+                </li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/גדרה">גדרה</a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/גני-תקווה">גני תקווה</a>
+                </li>
+                <li class="pull-right col-md-6 pr0"><a
+                    href="https://pizza-shemesh.co.il/סניפים/זבוטינסקי-בני-ברק-הרב-לנדאו">ז'בוטינסקי בני ברק - הרב לנדאו
+                  </a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/חולון-גולדה-מאיר">חולון
+                    גולדה מאיר </a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/חולון-דב-הוז">חולון דב
+                    הוז </a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/חריש">חריש </a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/יבנה">יבנה</a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/יהוד">יהוד </a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/יפו">יפו</a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/לוד">לוד</a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/נס-ציונה">נס ציונה</a>
+                </li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/נתניה-פנחס-לבון">נתניה
+                    -פנחס לבון </a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/סניף-אלוויט">סניף
+                    אלוויט</a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/פתח-תקווה">פתח תקווה</a>
+                </li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/ראשון-לציון-הרצל">ראשון
+                    לציון - הרצל </a></li>
+                <li class="pull-right col-md-6 pr0"><a
+                    href="https://pizza-shemesh.co.il/סניפים/ראשון-לציון-זלמן-שזר">ראשון לציון - זלמן שזר</a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/רמלה">רמלה</a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/רמלה-מבצע-יונתן">רמלה
+                    מבצע יונתן </a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/רמת-גן">רמת גן</a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/שוהם">שוהם</a></li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/תל-אביב">תל אביב</a>
+                </li>
+                <li class="pull-right col-md-6 pr0"><a href="https://pizza-shemesh.co.il/סניפים/תל-אביב-נווה-שרת">תל
+                    אביב-נווה שרת</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 text-right">
+              <h6>דרום</h6>
+              <ul class="list-unstyled">
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/אשדוד-ו"> אשדוד ו</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/בית-קמה"> בית קמה </a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/אופקים">אופקים</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/אילת">אילת</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/אשדוד">אשדוד</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/אשקלון-שפירא">אשקלון - שפירא</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/אשקלון-אלי-כהן">אשקלון - אלי כהן</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/באר-שבע-נווה-זאב">באר שבע - נווה זאב</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/באר-שבע-רגר">באר שבע - רגר </a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/דימונה">דימונה </a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/נתיבות">נתיבות</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/קריית-גת">קריית גת</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/קרית-מלאכי">קרית מלאכי</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/שדרות">שדרות</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 text-right">
+              <h6>השרון</h6>
+              <ul class="list-unstyled">
+                <li class=""><span>הרצליה</span></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/כפר-סבא">כפר סבא</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/נתניה">נתניה</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/ראש-העין">ראש העין</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 text-right">
+              <h6>ירושלים והסביבה</h6>
+              <ul class="list-unstyled">
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/בית-שמש">בית שמש</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/בית-שמש-רמה-ג-העדה-חרדית">בית שמש רמה ג' -העדה
+                    חרדית</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/ביתר-עילית-העדה-החרדית">ביתר עילית -העדה
+                    החרדית</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/ירושלים">ירושלים </a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/מודיעין">מודיעין</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/מודיעין-עילית-העדה-החרדית">מודיעין עילית - העדה
+                    החרדית</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/מעלה-אדומים">מעלה אדומים</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/פסגת-זאב">פסגת זאב</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/רמות-ירושלים-העדה-החרדית">רמות ירושלים
+                    העדה-החרדית</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 text-right">
+              <h6>צפון</h6>
+              <ul class="list-unstyled">
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/אור-עקיבא">אור עקיבא</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/חדרה">חדרה</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/חיפה-נווה-שאנן">חיפה -נווה שאנן </a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/חיפה-רמת-שאול">חיפה-רמת שאול </a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/טבריה">טבריה</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/טירת-הכרמל">טירת הכרמל </a></li>
+                <li class=""><span>מגדל העמק-הרב לנדאו </span></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/נהריה">נהריה </a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/עפולה">עפולה</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/צפת">צפת </a></li>
+                <li class=""><span>קריית ביאליק </span></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/קריית-ים">קריית ים </a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/קריית-מוצקין">קריית מוצקין</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/קריית-שמונה">קריית שמונה</a></li>
+                <li class=""><a href="https://pizza-shemesh.co.il/סניפים/קרית-אתא">קרית אתא</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 footer_menu">
+          <div class="row">
+            <div class="col-md-12 text-right text-xs-center text-sm-center">
+              <h5>תפריט</h5>
+            </div>
+          </div>
+          <div class="row mt15">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+              <ul class="list-unstyled main_menu_footer">
+                <li><a href="https://pizza-shemesh.co.il/תוכן/אודות">אודות</a></li>
+                <li><a href="https://pizza-shemesh.co.il/תוכן/זכיינות">זכיינות</a></li>
+                <li><a href="https://pizza-shemesh.co.il/צור-קשר">צור קשר</a></li>
+                <li> <a href="https://pizza-shemesh.co.il/uploads/takanon.pdf" target="_blank">תקנון</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer_cosher">
+          <div class="row">
+            <div class="clearfix"><img src="https://pizza-shemesh.co.il/images/badats.png" alt=""></div>
+            <div class="right col-md-3 mt10"><img src="https://pizza-shemesh.co.il/images/noam.png" alt=""></div>
+            <div class="right col-md-9 mt5">
+              <p class="fs16">
+                100% גבינה איכותית “נעם” <br>
+                מרכיבים טבעיים בלבד <br>
+                ללא חומרים משמרים
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
   <!-- Script (Vendor) -->
   <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/gsap.min.js"></script>
 
   <!-- Script -->
+  <script src="js/elevate-framework.js"></script>
   <script src="js/app.js"></script>
 
 </body>

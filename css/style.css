@@ -1,1 +1,37 @@
+/* #Font
+================================================== */
+@font-face {
+  font-family: Spacer;
+  src: url("../font/spacer_0-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: Spacer;
+  src: url("../font/spacerbold_0-webfont.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Spacer;
+  src: url("../font/spacerblack1-webfont.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* #Global
+================================================== */
+body {
+  font-family: 'Spacer', sans-serif;
+  font-weight: 400;
+}
+
+.text-red {
+  color: #ED1E24!important;
+}
+
+.f-montserrat {
+  font-family: 'Montserrat', sans-serif!important;
+}
